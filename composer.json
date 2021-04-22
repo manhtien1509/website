@@ -1,0 +1,19 @@
+{
+    "name": "waygou/website",
+    "description": "Waygou Website",
+    "type": "library",
+    "require": {
+        "illuminate/support": "9.x-dev",
+        "php": "^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "10.0.x-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Waygou\\Website\\": "src"
+        }
+    },
+    "license": "MIT",
+    "minimum-stability": "dev"
+}
